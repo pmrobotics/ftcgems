@@ -25,7 +25,8 @@ public class ConceptTFAutoGamepad extends LinearOpMode {
         
         // Wait for the game to start (driver presses PLAY)
         while (!opModeIsActive() && !isStopRequested()) {
-            if (tfAuto.scan() != null) {
+            // scan for an object, select the one with highest confidence
+            if (tfAuto.scan(TFAuto.Select.MAXCONF) != null) {
                 scansize = tfAuto.scanRecognitions.size();
                 lastSignal = tfAuto.scanResult.getLabel();
                 if (autoChoice < 10) {
