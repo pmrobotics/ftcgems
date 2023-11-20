@@ -84,9 +84,11 @@ public class DualPad extends Gamepad {
             left_stick_y = gp.left_stick_y;
             right_stick_x = gp.right_stick_x;
             right_stick_y = gp.right_stick_y;
+            this.timestamp = (long)gp.timestamp;
         } else {
             this.fastcopy(gp);
             shift.fastcopy(emptyPad);
+            shift.timestamp = (long)gp.timestamp;
         }
     }
 
@@ -118,6 +120,7 @@ public class DualPad extends Gamepad {
         if (left_stick_y == 0) left_stick_y = gp2.left_stick_y;
         if (right_stick_x == 0) right_stick_x = gp2.right_stick_x;
         if (right_stick_y == 0) right_stick_y = gp2.right_stick_y;
+        timestamp = Math.max(gp1.timestamp, gp2.timestamp);
     }
 
     public void update(Gamepad gp1, Gamepad gp2) {

@@ -12,35 +12,38 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 public class ConceptDualPad extends LinearOpMode {
 
-    DualPad dpad;
-    ElapsedTime timer;
+    DualPad gpad;
 
     @Override
     public void runOpMode() {
-        dpad = new DualPad();
-        dpad.init();
-        timer = new ElapsedTime();
+        gpad = new DualPad();
+        gpad.init();
+        ElapsedTime loopTimer = new ElapsedTime();
+        int loopCount = 0;
         
-        int count = 0;
         int apress = 0;
 
         telemetry.addData("Status", "Initialized");
         telemetry.update();
+        
         waitForStart();
+        
+        loopTimer.reset();
         while (opModeIsActive()) {
-            dpad.update(gamepad1, gamepad2);
-            count++;
+            gpad.update(gamepad1, gamepad2);
+            loopCount++;
             
-            if (dpad.a && !dpad.previous.a) { apress++; }
+            if (gpad.a && !gpad.previous.a) { apress++; }
             
-            if (timer.seconds() > 1) {
-                timer.reset();
-                telemetry.addData("count", count);
+            double s = loopTimer.seconds();
+            if (s > 1) {
+                loopTimer.reset();
+                telemetry.addData("loopcycle", "avg loop cycle: %.0fμs", s/loopCount * 1000000);
                 telemetry.addData("apress", apress);
-                telemetry.addData("dpad", dpad);
-                telemetry.addData("dpad.shift", dpad.shift);
+                telemetry.addData("gpad", gpad);
+                telemetry.addData("gpad.shift", gpad.shift);
                 telemetry.update();
-                count = 0;
+                loopCount = 0;
             }
         }
     }
