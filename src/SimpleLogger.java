@@ -1,6 +1,9 @@
+// Copyright 2024 Patrick R. Michaud
+
 package org.firstinspires.ftc.teamcode;
 
 import java.io.Writer;
+import com.qualcomm.robotcore.hardware.VoltageSensor;
 import java.text.DecimalFormat;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManagerImpl;
@@ -12,7 +15,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import java.util.concurrent.TimeUnit;
-
 
 public class SimpleLogger {
     private BufferedWriter writer = null;
@@ -113,6 +115,10 @@ public class SimpleLogger {
     
     public SimpleLogger add(boolean b) {
         return add(Boolean.toString(b));
+    }
+    
+    public SimpleLogger add(VoltageSensor vs) {
+        return add("%.2f", vs.getVoltage());
     }
     
     public double milliseconds() { return logTime.milliseconds(); }
