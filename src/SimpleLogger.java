@@ -22,7 +22,7 @@ public class SimpleLogger {
     private ElapsedTime logTime = new ElapsedTime();
     private double millisPrev = 0;
     private final String PATHFMT = "/sdcard/FIRST/java/src/Datalogs/%s.txt";
-    private DecimalFormat df2 = new DecimalFormat("0.00");
+    private String sep = ", ";
     
     private OpModeNotifications opModeNotifications = new OpModeNotifications();
 
@@ -80,22 +80,23 @@ public class SimpleLogger {
     public SimpleLogger tsLine() {
         double millis = logTime.milliseconds();
         if (line == null) { line = new StringBuilder(); }
-        line.insert(0, df2.format(millis)+","+df2.format(millis-millisPrev)+",");
+        line.insert(0, String.format("%.2f,%6.2f", millis, millis-millisPrev)+sep);
         flush();
         millisPrev = millis;
         return this;
     }
     
     public SimpleLogger headerLine() {
-        if (line == null) add("T,dt");
-        else { line.insert(0, "T,dt,"); }
+        String tsheader = "T,dt"+sep;
+        if (line == null) add(tsheader);
+        else { line.insert(0, tsheader); }
         flush();
         return this;
     }
     
     public SimpleLogger add(String s) {
         if (line == null) { line = new StringBuilder(); }
-        else if (line.length() > 0) line.append(",");
+        else if (line.length() > 0) line.append(sep);
         line.append(s);
         return this;
     }
