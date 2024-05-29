@@ -10,4 +10,5 @@ Course 201: Intermediate FTC
    /topics/robotdrive-brake-scale/index
    /topics/huskylens-intro/index
    /topics/huskylens-auton/index
+   /topics/simplelogger/index
 

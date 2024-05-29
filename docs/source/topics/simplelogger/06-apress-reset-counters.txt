@@ -1,0 +1,39 @@
+DriveLogging 6 - reset ticks to zero on apress
+==============================================
+
+.. container:: pmslide
+
+   .. code-block::
+      :emphasize-lines: 2,3,16-19,23
+      
+              // run until the end of the match (driver presses STOP)
+              boolean apressLast = false;
+              int lfStart = 0;
+              while (opModeIsActive()) {
+                  loopCount++;
+                  double jx = - gamepad1.left_stick_y;
+                  double jy = - gamepad1.left_stick_x;
+                  double jw = - gamepad1.right_stick_x;
+
+                  boolean apress = gamepad1.a;
+                  if (apress) {
+                     jx = 0.5;
+                     logUntil = loopCount + 100;
+                  }
+
+                  if (apress && !apressLast) {
+                     lfStart = bot.lf.getCurrentPosition();
+                  }
+                  apressLast = apress;
+
+                  if (loopCount < logUntil) {
+                     log.add(loopCount).add(apress)
+                        .add(bot.lf.getCurrentPosition() - lfStart)
+                        .tsLine();
+                  }
+      
+                  bot.driveXYW(jx, jy, jw);
+                  
+                  telemetry.addData("Status", "Running");
+                  telemetry.update();
+              } 
