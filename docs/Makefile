@@ -9,6 +9,7 @@ SOURCEDIR     = source
 BUILDDIR      = build
 
 AUTOBUILD = sphinx-autobuild
+AUTOBUILDOPTS = --ignore "*.swp"
 HTMLBUILDDIR = build/html
 
 # Put it first so that "make" without argument is like "make help".
@@ -18,7 +19,7 @@ help:
 .PHONY: help Makefile
 
 autobuild:
-	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR)
+	@$(AUTOBUILD) $(AUTOBUILDOPTS) $(SOURCEDIR) $(HTMLBUILDDIR)
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
