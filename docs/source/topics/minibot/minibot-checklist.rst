@@ -16,4 +16,5 @@ Minibot Checklist
      * right-front (rf): port 3
 
    * wires reasonably managed
-
+   * software is 9.1 or later
+   * onbotjava folder is empty
