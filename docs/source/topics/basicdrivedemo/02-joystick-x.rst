@@ -15,7 +15,7 @@ BasicDriveDemo 2 - Joystick forward/reverse (x)
               waitForStart();
 
               while (opModeIsActive()) {
-                  double jx = - gamepad1.left_stick_y;
+                  double jx = -gamepad1.left_stick_y;
 
                   bot.driveXYW(jx, 0, 0);
 

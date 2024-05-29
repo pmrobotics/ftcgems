@@ -15,8 +15,8 @@ BasicDriveDemo 3 - Joystick strafe left/right (y)
               waitForStart();
 
               while (opModeIsActive()) {
-                  double jx = - gamepad1.left_stick_y;
-                  double jy = - gamepad1.left_stick_x;
+                  double jx = -gamepad1.left_stick_y;
+                  double jy = -gamepad1.left_stick_x;
 
                   bot.driveXYW(jx, jy, 0);
 
