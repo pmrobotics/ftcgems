@@ -1,0 +1,8 @@
+div.pmslide { 
+   font-size:180%; 
+   border-bottom: 3px solid black;
+}
+
+div.content {
+   width: 70em;
+}
