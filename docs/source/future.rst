@@ -1,0 +1,5 @@
+- power wiring with wago connectors
+- grounding strap wiring
+- servo testing and performance
+- servo plug wiring
+- driver station battery and charging
