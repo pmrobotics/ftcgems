@@ -7,7 +7,6 @@ Welcome to ftcgems's documentation!
 ===================================
 
 .. toctree::
-   :maxdepth: 1
    :caption: Contents:
 
    courses/201-intermediate/index
