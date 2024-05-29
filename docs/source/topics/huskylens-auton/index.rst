@@ -1,5 +1,5 @@
-Using HuskyLens for randomization
-=================================
+Using HuskyLens for autonomous randomization
+============================================
 
 .. toctree::   
    :glob:
