@@ -21,12 +21,7 @@ April Tag 7 - have robot drive to target
                           jw = detection.ftcPose.bearing * 0.02;
                           jx = (detection.ftcPose.range - 20) * 0.02; 
                       }
-                      telemetry.addData("tag",
-                                        String.format("id=%d R=%.2f B=%.2f Y=%.2f",
-                                                      detection.id,
-                                                      detection.ftcPose.range,
-                                                      detection.ftcPose.bearing,
-                                                      detection.ftcPose.yaw));
+                      telemetry.addData("tag", bot.format(detection));
                   }
       
                   bot.driveXYW(jx, jy, jw);

@@ -1,10 +1,10 @@
-April Tag 5 - display AprilTag detections from minibot
+April Tag 5b - display AprilTag detections from minibot
 ======================================================
 
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 11-20
+      :emphasize-lines: 11-15
 
               while (opModeIsActive()) {
                   gpad.update(gamepad1, gamepad2);
@@ -19,12 +19,7 @@ April Tag 5 - display AprilTag detections from minibot
                   List<AprilTagDetection> currentDetections = 
                           bot.aprilTag.getDetections();
                   for (AprilTagDetection detection : currentDetections) {
-                      telemetry.addData("tag", 
-                                        String.format("id=%d R=%.2f B=%.2f Y=%.2f",
-                                                      detection.id,
-                                                      detection.ftcPose.range,
-                                                      detection.ftcPose.bearing,
-                                                      detection.ftcPose.yaw));
+                      telemetry.addData("tag", bot.format(detection));
                   }
       
                   bot.driveXYW(jx, jy, jw);
