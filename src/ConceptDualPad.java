@@ -24,12 +24,25 @@ public class ConceptDualPad extends LinearOpMode {
         waitForStart();
 
         // run until the end of the match (driver presses STOP)
+        boolean aToggle = false;
+        int aToggleCount = 0;
+        
         while (opModeIsActive()) {
             gpad.update(gamepad1, gamepad2);
-            telemetry.addData("Status", "Running");
-            telemetry.addData("gpad.count", gpad.count);
-            telemetry.addData("gpad", gpad.toString());
-            telemetry.addData("gpad.shift", gpad.shift.toString());
+            
+            if (gpad.a && !gpad.previous.a) {
+                aToggle = !aToggle;
+                aToggleCount++;
+            }
+            
+            telemetry.addData("aToggle", aToggle ? "on" : "off");
+            telemetry.addData("aToggleCount", aToggleCount);
+            telemetry.addLine("-----");
+            telemetry.addData("gpad.a", gpad.a);
+            telemetry.addData("gpad.shift.a", gpad.shift.a);
+            telemetry.addLine("-----");
+            telemetry.addData("gpad", gpad);
+            telemetry.addData("gpad.shift", gpad.shift);
             telemetry.update();
         }
     }
