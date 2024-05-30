@@ -11,4 +11,5 @@ Course 201: Intermediate FTC
    /topics/huskylens-intro/index
    /topics/huskylens-auton/index
    /topics/simplelogger/index
+   /topics/dualpad/index
 
