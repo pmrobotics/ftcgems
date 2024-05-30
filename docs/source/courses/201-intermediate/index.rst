@@ -15,3 +15,4 @@ Course 201: Intermediate FTC
    /topics/robotvalues/index
    /topics/robotdrive-imu/index
    /topics/fielddrive/index
+   /topics/apriltag-intro/index
