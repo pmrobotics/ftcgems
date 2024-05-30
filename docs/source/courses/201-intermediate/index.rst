@@ -12,4 +12,6 @@ Course 201: Intermediate FTC
    /topics/huskylens-auton/index
    /topics/simplelogger/index
    /topics/dualpad/index
-
+   /topics/robotvalues/index
+   /topics/robotdrive-imu/index
+   /topics/fielddrive/index
