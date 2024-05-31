@@ -1,4 +1,4 @@
-April Tag 5a - helper function to telemetry AprilTagDetections
+April Tag 6 - helper function to telemetry AprilTagDetections
 =============================================================
 
 .. container:: pmslide

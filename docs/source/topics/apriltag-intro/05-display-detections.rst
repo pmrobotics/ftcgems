@@ -1,5 +1,5 @@
-April Tag 5b - display AprilTag detections from minibot
-=======================================================
+April Tag 5 - display AprilTag detections from minibot
+======================================================
 
 .. container:: pmslide
 

@@ -1,4 +1,4 @@
-April Tag 6 - have robot turn toward selected tag
+April Tag 7 - have robot turn toward selected tag
 =================================================
 
 .. container:: pmslide

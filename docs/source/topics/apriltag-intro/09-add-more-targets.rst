@@ -1,4 +1,4 @@
-April Tag 8 - add more targets
+April Tag 9 - add more targets
 ==============================
 
 .. container:: pmslide

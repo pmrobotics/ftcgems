@@ -1,4 +1,4 @@
-April Tag 7 - have robot drive to target 
+April Tag 8 - have robot drive to target 
 ========================================
 
 .. container:: pmslide
