@@ -21,4 +21,5 @@ Course 201: Intermediate FTC
    /topics/odometry-path-waypoints/index
    adafruit-imu
    screw-terminal-plugs
+   tag-cables
 
