@@ -5,3 +5,4 @@ add normalization and improve heading code
 fix scaling slide / denom
 video showing husky strafe auton
 add tick values to slide
+bring usb batteries

@@ -8,13 +8,13 @@ Scale robot drive velocities
 
       public class RobotDrive {
           // ...
-      
-          public DcMotorEx initDcMotor(HardwareMap hardwareMap,
-                                       String name,
-                                       DcMotor.Direction dir) {
-              DcMotorEx m = hardwareMap.get(DcMotorEx.class, name);
-              m.setDirection(dir);
-              m.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-              return m;
-          }
-      
+     
+       double denom = Math.max(
+                            1,
+                            (Math.abs(rx)+Math.abs(ry)+Math.abs(rw))
+                        );
+        
+        double lfPower = (rx - ry - rw) / denom;
+        double rfPower = (rx + ry + rw) / denom;
+        double lbPower = (rx + ry - rw) / denom;
+        double rbPower = (rx - ry + rw) / denom; 
