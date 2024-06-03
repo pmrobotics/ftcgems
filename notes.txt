@@ -1,0 +1,4 @@
+Add imports to slides
+Restart robot after reset onbot java
+battery for driver hub
+add normalization and improve heading code
