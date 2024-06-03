@@ -14,7 +14,7 @@ HuskyAutonDemo 7 - waitForStart() equivalent loop
    .. code-block::
 
       while (!isStarted()) {
-          // ...
+          // do stuff here!
       }
 
    except you can specify things for the program to do while it's waiting...

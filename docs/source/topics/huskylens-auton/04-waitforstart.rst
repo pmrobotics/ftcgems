@@ -4,23 +4,18 @@ HuskyAutonDemo 4 - check block for left/center/right
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 7, 10-13
+      :emphasize-lines: 5-9
 
               // ...
               telemetry.addData("Status", "Initialized");
               telemetry.update();
               // Wait for the game to start (driver presses PLAY)
-              waitForStart();
-
-              String randomization = "NONE";              
-              HuskyLens.Block[] currentBlocks = huskylens.blocks();
-              for (HuskyLens.Block block : currentBlocks) {
-                  int blockCenter = block.left + block.width/2;
-                  if (blockCenter < 80) randomization = "LEFT";
-                  else if (blockCenter < 160) randomization = "CENTER";
-                  else randomization = "RIGHT";
+              // waitForStart();
+              while (!isStarted()) {
+                  telemetry.addLine("Press PLAY to start");
+                  telemetry.update();
               }
-      
+
               // run until the end of the match (driver presses STOP)
               while (opModeIsActive()) {
                   telemetry.addData("Status", "Running");

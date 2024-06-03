@@ -14,12 +14,8 @@ HuskyAutonDemo 8 - detect randomization during init
               while (!isStarted()) {
                   HuskyLens.Block[] currentBlocks = huskylens.blocks();
                   for (HuskyLens.Block block : currentBlocks) {
-                      int blockCenter = block.left + block.width/2;
-                      if (blockCenter < 80) randomization = "LEFT";
-                      else if (blockCenter < 160) randomization = "CENTER";
-                      else randomization = "RIGHT";
+                      telemetry.addData("husky", block);
                   }
-                  // if (!randomization.equals("NONE")) break;
               }
       
               // run until the end of the match (driver presses STOP)
