@@ -1,4 +1,4 @@
-HuskyAutonDemo 7 - waitForStart() equivalent loop
+HuskyAutonDemo 3 - waitForStart() equivalent loop
 =================================================
 
 .. container:: pmslide

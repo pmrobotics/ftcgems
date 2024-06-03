@@ -1,26 +1,20 @@
-HuskyAutonDemo 9 - display randomization during init()
-======================================================
+HuskyAutonDemo 5 - display husky blocks during init()
+=====================================================
 
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 15-16
+      :emphasize-lines: 6-9
 
               // ...
               // Wait for the game to start (driver presses PLAY)
               // waitForStart();
-
-              String randomization = "NONE";
               while (!isStarted()) {
+                  telemetry.addData("Status", "Running");
                   HuskyLens.Block[] currentBlocks = huskylens.blocks();
                   for (HuskyLens.Block block : currentBlocks) {
-                      int blockCenter = block.left + block.width/2;
-                      if (blockCenter < 80) randomization = "LEFT";
-                      else if (blockCenter < 160) randomization = "CENTER";
-                      else randomization = "RIGHT";
+                      telemetry.addData("block", block.toString());
                   }
-                  // if (!randomization.equals("NONE")) break;
-                  telemetry.addData("randomization", randomization);
                   telemetry.update();
               }
       

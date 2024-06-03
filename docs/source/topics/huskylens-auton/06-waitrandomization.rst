@@ -4,22 +4,23 @@ HuskyAutonDemo 6 - wait for object to be detected
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 6,14-15
+      :emphasize-lines: 4, 10-12, 14, 21
 
               // ...
               // Wait for the game to start (driver presses PLAY)
-              waitForStart();
-
+              // waitForStart();
               String randomization = "NONE";
-              while (opModeIsActive()) {
+              while (!isStarted()) {
+                  telemetry.addData("Status", "Running");
                   HuskyLens.Block[] currentBlocks = huskylens.blocks();
                   for (HuskyLens.Block block : currentBlocks) {
-                      int blockCenter = block.left + block.width/2;
-                      if (blockCenter < 80) randomization = "LEFT";
-                      else if (blockCenter < 160) randomization = "CENTER";
+                      telemetry.addData("block", block.toString());
+                      if (block.x < 105) randomization = "LEFT";
+                      else if (block.x < 215) randomization = "CENTER";
                       else randomization = "RIGHT";
                   }
-                  if (!randomization.equals("NONE")) break;
+                  telemetry.addData("randomization", randomization);
+                  telemetry.update();
               }
       
               // run until the end of the match (driver presses STOP)

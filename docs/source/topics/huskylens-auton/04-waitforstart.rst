@@ -1,5 +1,5 @@
-HuskyAutonDemo 4 - check block for left/center/right
-====================================================
+HuskyAutonDemo 4 - replace waitForStart() with loop
+===================================================
 
 .. container:: pmslide
 
