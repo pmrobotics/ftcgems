@@ -9,5 +9,6 @@ Course 201: Intermediate FTC - Day 1
    /topics/robotdrive-brake-scale/index
    /topics/huskylens-intro/index
    /topics/huskylens-auton/index
+   /topics/dualpad/index
    /topics/simplelogger/index
 
