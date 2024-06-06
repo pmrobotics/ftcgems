@@ -4,7 +4,7 @@ Odometry 2 - add tracking to ATeleop
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 4-6
+      :emphasize-lines: 4-5
 
               // run until the end of the match (driver presses STOP)
               while (opModeIsActive()) {
