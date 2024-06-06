@@ -4,7 +4,11 @@ April Tag 5 - display AprilTag detections from minibot
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 11-15
+      :emphasize-lines: 1, 15-19
+
+      import java.util.List;
+
+      // ... 
 
               while (opModeIsActive()) {
                   gpad.update(gamepad1, gamepad2);
