@@ -10,7 +10,16 @@ Using a REV LED as driver feedback
    * | Under "Digital Devices"
      |    Port 0:  type "LED", name "ledr"
      |    Port 1:  type "LED", name "ledg"
-    
+
+Resources
+---------
+
+* REV Digital LED Indicator
+
+  - https://www.revrobotics.com/rev-31-2010/
+
+Topic pages
+-----------
 
 .. toctree::   
    :glob:
