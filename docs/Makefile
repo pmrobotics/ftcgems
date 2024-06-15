@@ -30,6 +30,9 @@ usbdrive: usbclean clean html
 	cp -av $(HTMLBUILDDIR) $(USBDRIVEDIR)/slides
 	cp -av ../src $(USBDRIVEDIR)/src
 
+requirements: 
+	pip install -r source/requirements.txt
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile

@@ -10,4 +10,7 @@ Advantages of lever connector system power wiring
    * Quick repair - easy to repair/fix at events if needed
    * Extendability - easy to add other 12v devices to power distribution
 
+     + Servo Power Module
+     + REV Blinkin Module
+
 

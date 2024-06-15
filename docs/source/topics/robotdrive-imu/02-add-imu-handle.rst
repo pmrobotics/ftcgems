@@ -4,7 +4,7 @@ IMU 2 - add IMU handle to RobotDrive
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 8,16
+      :emphasize-lines: 8
 
       public class RobotDrive {
       

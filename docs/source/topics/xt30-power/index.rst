@@ -37,8 +37,7 @@ Resources
 Notes
 -----
 
-If substituting other lever wire connectors, make sure they are rated for at
-least 20 amps of current.
+If substituting lever wire connectors other than WAGO, make sure they are rated for at least 20 amps of current.
 
 Topic pages
 -----------
