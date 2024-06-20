@@ -6,3 +6,4 @@ Course 201: Intermediate FTC
    day1
    day2
    day3
+   ../../topics/imports
