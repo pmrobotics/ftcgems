@@ -16,6 +16,6 @@ April Tag 12 - better recognition set C270 exposure and gain
               
               bot = new Minibot();
               bot.init(hardwareMap);
-              bot.setManualExposure(this, 21, 255);
+              bot.setManualExposure(this, 6, 120);
               
               gpad = new DualPad();
