@@ -4,7 +4,7 @@ RobotDrive 2 - additional RobotValues examples
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 5-8, 10-14
+      :emphasize-lines: 2-3
 
       public class RobotValues {
           public static DcMotor.Direction LEFTDIR = DcMotor.Direction.REVERSE;
