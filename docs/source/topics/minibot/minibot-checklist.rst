@@ -18,3 +18,6 @@ Minibot Checklist
    * wires reasonably managed
    * software is 9.1 or later
    * onbotjava folder is empty
+
+     * (power cycle robot if resetting OBJ)
+       

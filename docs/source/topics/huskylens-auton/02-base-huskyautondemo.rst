@@ -6,7 +6,7 @@ HuskyAutonDemo 2 - remove teleop code
    Change "@Teleop" to read "@Autonomous", and remove all of the teleop code to leave this basic framework:
 
    .. code-block::
-      :emphasize-lines: 1-
+      :emphasize-lines: 4-5, 9-13
 
       @Autonomous
       public class HuskyAutonDemo extends LinearOpMode {

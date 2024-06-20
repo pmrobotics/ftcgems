@@ -4,7 +4,7 @@ Scale robot drive velocities
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 9
+      :emphasize-lines: 4-12
 
       public class RobotDrive {
           // ...
