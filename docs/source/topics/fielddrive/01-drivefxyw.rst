@@ -17,7 +17,7 @@ Adding a field-centered drive method
               // rotate field orientation to robot orientation
               double theta = Math.toRadians(getHeading());
               double rx = fx * Math.cos(-theta) - fy * Math.sin(-theta);
-              double ry = fx * Math.sin(-theta) + fy * Math.cos(-theta);A
+              double ry = fx * Math.sin(-theta) + fy * Math.cos(-theta);
 
               driveXYW(rx, ry, fw);
           }
