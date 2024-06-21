@@ -4,9 +4,13 @@ IMU 7 - add setHeading() / getHeading()
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 8-14
+      :emphasize-lines: 4, 12-18 
 
       public class RobotDrive {
+
+          IMU imu;
+          double headingOffset = 0;
+
           // ...
      
           public double getIMUHeading() {

@@ -6,7 +6,7 @@ LED 1 - add code to initialize LED device
    .. code-block::
       :emphasize-lines: 6-7, 12-15
 
-      public class Minibot extends RobotDrivePm {
+      public class Minibot extends RobotDrive {
       
           public AprilTagProcessor aprilTag;
           public VisionPortal visionPortal;
