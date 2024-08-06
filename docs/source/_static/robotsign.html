@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .tnum {
+    font-size: 2.80in;
+    font-family: "Arial";
+    font-weight: bold;
+    fill: white;
+    text-anchor: middle;
+    dominant-baseline: central;
+    transform: scaleX(0.7); 
+  }
+  svg {
+    width: 6.5in;
+    height: 2.55in;
+    margin-left: 0.1in;
+    margin-bottom: 0.00in;
+  }
+  input { width: 0.75in; }
+</style>
+</head>
+<body>
+<table>
+<tr><td valign="top">
+  Team number:<br />
+  <input oninput="fillTeam()" type="number" id="team" value="1234" /><br />
+  <button onclick="fillTeam()">Update</button>
+</td>
+<td>
+  <svg>
+    <rect x="0in" y="0in" width="6.5in" height="2.55in" fill=red />
+    <text id="sign0" class="tnum" x="71%" y="50%">1234</text>
+  </svg><br />
+  <svg>
+    <rect x="0in" y="0in" width="6.5in" height="2.55in" fill=red />
+    <text id="sign1" class="tnum" x="71%" y="50%">1234</text>
+  </svg><br />
+  <svg>
+    <rect x="0in" y="0in" width="6.5in" height="2.55in" fill=blue />
+    <text id="sign2" class="tnum" x="71%" y="50%">1234</text>
+  </svg><br />
+  <svg>
+    <rect x="0in" y="0in" width="6.5in" height="2.55in" fill=blue />
+    <text id="sign3" class="tnum" x="71%" y="50%">1234</text>
+  </svg><br />
+</td></tr></table>
+
+<script>
+function fillTeam() {
+  var x = document.getElementById("team").value;
+  document.getElementById("sign0").innerHTML = x;
+  document.getElementById("sign1").innerHTML = x;
+  document.getElementById("sign2").innerHTML = x;
+  document.getElementById("sign3").innerHTML = x;
+}
+</script>
+</body>
+</html>
