@@ -29,7 +29,7 @@ author = 'Patrick R. Michaud'
 # ones.
 extensions = [
    "sphinx_design",
-   "sphinx.ext.githubpages",
+   # "sphinx.ext.githubpages",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
