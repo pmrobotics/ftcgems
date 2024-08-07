@@ -29,6 +29,7 @@ author = 'Patrick R. Michaud'
 # ones.
 extensions = [
    "sphinx_design",
+   "sphinx.ext.githubpages",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -45,6 +46,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+html_baseurl = 'http://pmrobotics.org/ftcgems'
 html_theme = 'furo'
 html_theme_options = {
   "navigation_with_keys": True,
