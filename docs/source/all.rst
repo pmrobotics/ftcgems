@@ -1,8 +1,7 @@
-Welcome to ftcgems's documentation!
+Index of all pages/topics
 ===================================
 
 .. toctree::
-   :caption: Contents:
    /topics/xt30-power/index
    /topics/minibot/index
    /topics/robotdrive/index
@@ -27,9 +26,3 @@ Welcome to ftcgems's documentation!
    ../../topics/imports
    courses/201-intermediate/index
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
