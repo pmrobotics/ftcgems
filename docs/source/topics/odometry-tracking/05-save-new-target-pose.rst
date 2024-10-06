@@ -10,11 +10,11 @@ Odometry 5 - update the target pose
                   // ...
 
                   // use current pose as new target
-                  if (gpad.shift.back) {
+                  if (gamepad1.guide) {
                       targetPose = new Minibot.Pose(bot.field);
                   }
                   
-                  if (gpad.back) {
+                  if (gamepad1.back) {
                       bot.driveToPose(targetPose, 0.3);
                   }
                   else { 
@@ -25,5 +25,4 @@ Odometry 5 - update the target pose
                   
               }
 
-   Pressing "shift+back"  (left bumper + shift) will save the current
-   robot's location as the new target.
+   Pressing "guide" will save the current robot's location as the new target.

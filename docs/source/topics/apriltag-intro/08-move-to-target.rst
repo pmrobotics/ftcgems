@@ -7,12 +7,12 @@ April Tag 8 - have robot drive to target
       :emphasize-lines: 14
 
                   // ...
-                  if (gpad.start) {
-                      if (gpad.dpad_up) bot.setHeading(0);
+                  if (gamepad1.start) {
+                      if (gamepad1.dpad_up) bot.setHeading(0);
                   }
                   
                   int targetId = -1;
-                  if (gpad.x) targetId = 4;
+                  if (gamepad1.x) targetId = 11;
                   
                   List<AprilTagDetection> currentDetections =
                           bot.aprilTag.getDetections();

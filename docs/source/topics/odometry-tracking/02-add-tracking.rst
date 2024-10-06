@@ -4,16 +4,15 @@ Odometry 2 - add tracking to ATeleop
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 4-5
+      :emphasize-lines: 3-4
 
               // run until the end of the match (driver presses STOP)
               while (opModeIsActive()) {
-                  gpad.update(gamepad1, gamepad2);
                   bot.updateTracking();
                   telemetry.addData("field pose", bot.field);
-                  double jx = -gpad.left_stick_y - gpad.right_stick_y;
-                  double jy = -gpad.left_stick_x;
-                  double jw = -gpad.right_stick_x;
+                  double jx = -gamepad1.left_stick_y - gamepad1.right_stick_y;
+                  double jy = -gamepad1.left_stick_x;
+                  double jw = -gamepad1.right_stick_x;
 
                   // ...
 

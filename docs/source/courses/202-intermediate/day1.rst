@@ -12,7 +12,3 @@ Course 202: Intermediate FTC - Day 1
    /topics/dualpad/index
    /topics/simplelogger/index
    /topics/robotvalues/index
-   /topics/robotdrive-imu/index
-   /topics/fielddrive/index
-   /topics/apriltag-intro/index
-

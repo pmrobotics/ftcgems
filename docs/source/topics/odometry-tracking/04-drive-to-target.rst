@@ -17,7 +17,7 @@ Odometry 4 - drive to the "target" pose
                       telemetry.addData("tag", bot.format(detection));
                   }
                   
-                  if (gpad.back) {
+                  if (gamepad1.back) {
                       bot.driveToPose(targetPose, 0.3);
                   }
                   else { 

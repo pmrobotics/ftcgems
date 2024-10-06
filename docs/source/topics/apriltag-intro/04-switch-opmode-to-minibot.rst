@@ -4,12 +4,11 @@ Minibot class 4 - switch ATeleop to use Minibot
 .. container:: pmslide
 
    .. code-block::
-      :emphasize-lines: 3, 9
+      :emphasize-lines: 3, 8
 
       public class ATeleop extends LinearOpMode {
       
           public Minibot bot;
-          public DualPad gpad;
       
           @Override
           public void runOpMode() {
@@ -17,5 +16,4 @@ Minibot class 4 - switch ATeleop to use Minibot
               bot = new Minibot();
               bot.init(hardwareMap);
               
-              gpad = new DualPad();
               // ...
