@@ -1,7 +1,7 @@
 Build the ConceptAprilTagEasy example
 =====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Create "ConceptAprilTagEasy" from ConceptAprilTagEasy sample code
    #. Attach webcam to robot

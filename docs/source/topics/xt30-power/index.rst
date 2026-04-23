@@ -1,7 +1,9 @@
+.. rst-class:: pmslide
+
 Improving XT30 power connections
 ================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Male XT30 connection on REV Control Hubs can become compressed
 
@@ -13,34 +15,29 @@ Improving XT30 power connections
    * Use WAGO lever-nuts as power distribution block
    * Use high-quality XT30 pigtail cables
 
-Resources
----------
+.. admonition:: Resources
 
-* XT30 pigtails (XT30 16AWG Silicone Wire)
+   * XT30 pigtails (XT30 16AWG Silicone Wire)
 
-  - https://www.amazon.com/dp/B07C5KJX24/
+     - https://www.amazon.com/dp/B07C5KJX24/
 
-* WAGO 5-pin lever nuts
+   * WAGO 5-pin lever nuts
 
-  - https://www.amazon.com/dp/B07WC2XBMK/
-  - https://www.homedepot.com/p/318073858
+     - https://www.amazon.com/dp/B07WC2XBMK/
+     - https://www.homedepot.com/p/318073858
 
-* (Optional) Wire ferrules
+   * (Optional) Wire ferrules
 
-  - https://www.amazon.com/dp/B0BQ6LQ12G/
+     - https://www.amazon.com/dp/B0BQ6LQ12G/
 
-* (Optional) Double-sided mounting tape
+   * (Optional) Double-sided mounting tape
 
-  - https://www.homedepot.com/p/203936785
-  - https://www.amazon.com/dp/B08FSGLPK9
+     - https://www.homedepot.com/p/203936785
+     - https://www.amazon.com/dp/B08FSGLPK9
 
-Notes
------
+.. admonition:: Notes
 
-If substituting lever wire connectors other than WAGO, make sure they are rated for at least 20 amps of current.
-
-Topic pages
------------
+   If substituting lever wire connectors other than WAGO, make sure they are rated for at least 20 amps of current.
 
 .. toctree::   
    :glob:

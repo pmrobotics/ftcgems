@@ -1,7 +1,7 @@
 Scale robot drive velocities
 ============================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 4-12

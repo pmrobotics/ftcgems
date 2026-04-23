@@ -1,7 +1,7 @@
 Odometry paths 4 - add a followPath() function to AAuton
 ========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 5-19

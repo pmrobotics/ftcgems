@@ -1,7 +1,7 @@
 DriveLogging 3 - switch to using DualPad (gpad)
 ===============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Now we switch all of usages of "gamepad1" to be "gpad" instead:
 

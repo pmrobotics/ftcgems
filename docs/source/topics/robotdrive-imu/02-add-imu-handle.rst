@@ -1,7 +1,7 @@
 IMU 2 - add IMU handle to RobotDrive
 ====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 8

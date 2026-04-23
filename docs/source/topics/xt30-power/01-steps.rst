@@ -1,7 +1,9 @@
+.. rst-class:: pmslide
+
 Steps for improving XT30 power connections
 ==========================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * (optional) Cut XT30 pigtails to desired length
    * Strip XT30 pigtail wires

@@ -1,7 +1,7 @@
 DualPad Introduction
 ====================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * combines the buttons from both gamepads into a single Gamepad instance
    * provides a "shift/alt" capability (like a keyboard) to nearly double

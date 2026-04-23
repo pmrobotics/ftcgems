@@ -1,7 +1,7 @@
 April Tag 12 - better recognition set C270 exposure and gain
 ============================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 10

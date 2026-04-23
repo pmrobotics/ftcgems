@@ -1,5 +1,5 @@
 IMU 1 - Sensor IMU
 ====================================
 
-.. container:: pmslide
+.. container:: pmbox
 

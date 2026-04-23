@@ -1,7 +1,7 @@
 Build the ConceptSimpleLogger example
 =====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Upload "SimpleLogger.java" from src/ subdirectory
    #. Upload "ConceptSimpleLogger.java" from src/ subdirectory

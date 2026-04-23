@@ -1,7 +1,7 @@
 Adding a field-centered drive method
 ====================================
       
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 8-15

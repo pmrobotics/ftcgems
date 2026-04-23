@@ -1,7 +1,7 @@
 Minibot Coordinate System
 =========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. image:: minibot-coordinates.png
       :scale: 75%

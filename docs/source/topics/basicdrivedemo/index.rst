@@ -1,7 +1,7 @@
 class BasicDriveDemo
 ====================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Base class for robot hardware
    * Contains code for basic driving and navigation

@@ -1,7 +1,7 @@
 DualPad 1 - copy BasicDriveDemo opmode
 ======================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Right-click on BasicDriveDemo.java, select "Copy"
    #. Right-click on "org.firstinspires.ftc.teamcode", select "Paste"

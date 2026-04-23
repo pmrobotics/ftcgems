@@ -1,7 +1,7 @@
 BasicDriveDemo 3 - Joystick strafe left/right (y)
 =================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 11-13

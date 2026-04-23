@@ -1,7 +1,7 @@
 MecDrive 4 - Joystick forward/reverse (x)
 =========================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 2, 9-11

@@ -2,7 +2,7 @@
 Add BRAKE mode to driving motors
 ================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 9 

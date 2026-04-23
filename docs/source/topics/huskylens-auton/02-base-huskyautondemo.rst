@@ -1,7 +1,7 @@
 HuskyAutonDemo 2 - remove teleop code
 =====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Change "@Teleop" to read "@Autonomous", and remove all of the teleop code to leave this basic framework:
 

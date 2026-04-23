@@ -1,7 +1,7 @@
 Minibot Checklist
 =================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * battery wires: red to red and black to black
    * power XT30 wire stable

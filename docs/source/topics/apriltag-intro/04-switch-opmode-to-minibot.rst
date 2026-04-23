@@ -1,7 +1,7 @@
 Minibot class 4 - switch ATeleop to use Minibot
 ===============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 3, 8

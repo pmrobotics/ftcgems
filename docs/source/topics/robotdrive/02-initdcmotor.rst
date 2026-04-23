@@ -1,7 +1,7 @@
 RobotDrive 2 - initDcMotor method
 =================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 8-14

@@ -1,7 +1,7 @@
 SimpleLogger Introduction
 =========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Introduction to SimpleLogger and data logging
 

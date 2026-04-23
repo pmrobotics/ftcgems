@@ -1,7 +1,7 @@
 Odometry 5 - update the target pose
 ===================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 4-7

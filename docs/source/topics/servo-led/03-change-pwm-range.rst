@@ -1,7 +1,7 @@
 LED 3 - Adjust the pwm range for brighter LED
 =============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 1,11

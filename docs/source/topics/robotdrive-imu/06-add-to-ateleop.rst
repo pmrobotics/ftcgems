@@ -1,7 +1,7 @@
 IMU 6 - Create ATeleop, display IMU heading
 ===========================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Copy BasicDriveDemo.java to ATeleop.java
 

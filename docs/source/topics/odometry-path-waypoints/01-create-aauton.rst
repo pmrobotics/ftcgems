@@ -1,7 +1,7 @@
 Odometry Path 1 - create AAuton opmode
 ======================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Click on "+" (Add File)
    #. Create a new opmode 

@@ -1,7 +1,7 @@
 Odometry paths 2 - add Minibot initialization
 =============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 5,10-11

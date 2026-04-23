@@ -1,7 +1,7 @@
 HuskyDriveDemo 7 - add button to target color #2
 ================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 8

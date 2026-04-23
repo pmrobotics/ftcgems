@@ -1,7 +1,7 @@
 Control a LED using a servo port
 ================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Control a LED using a servo port
 

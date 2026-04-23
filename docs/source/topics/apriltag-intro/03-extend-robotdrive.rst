@@ -1,7 +1,7 @@
 Minibot class 3 - inherit from RobotDrive class
 ===============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 1, 6-9

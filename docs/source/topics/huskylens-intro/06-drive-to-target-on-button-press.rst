@@ -1,7 +1,7 @@
 HuskyDriveDemo 6 - drive to object when button pressed
 ======================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 16-18

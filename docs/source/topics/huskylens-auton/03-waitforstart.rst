@@ -1,7 +1,7 @@
 HuskyAutonDemo 3 - waitForStart() equivalent loop
 =================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    The statement
 

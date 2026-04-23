@@ -1,7 +1,7 @@
 Field Centric Driving
 =====================
 
-.. container:: pmslide
+.. container:: pmbox
 
    With field centric drive, the translation joystick controls the direction of the robot relative to the field instead of the robot frame.
 

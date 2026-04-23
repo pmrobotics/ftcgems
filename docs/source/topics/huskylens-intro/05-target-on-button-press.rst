@@ -1,7 +1,7 @@
 HuskyDriveDemo 5 - turn towards object when button pressed
 ==========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 6-7, 13-16

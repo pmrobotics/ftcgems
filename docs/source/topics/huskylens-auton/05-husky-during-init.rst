@@ -1,7 +1,7 @@
 HuskyAutonDemo 5 - display husky blocks during init()
 =====================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 6-9

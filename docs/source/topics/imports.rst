@@ -1,7 +1,7 @@
 Useful Imports
 ==============
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
 

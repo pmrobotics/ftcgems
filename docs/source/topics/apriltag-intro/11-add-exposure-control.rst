@@ -1,7 +1,7 @@
 April Tag 11 - add gain/exposure control
 ========================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 3-

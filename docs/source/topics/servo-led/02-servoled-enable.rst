@@ -1,7 +1,7 @@
 LED 2 - use gamepad right trigger to control LED brightness
 ===========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 11-12

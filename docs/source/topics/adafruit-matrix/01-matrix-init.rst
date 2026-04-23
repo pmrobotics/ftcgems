@@ -1,7 +1,7 @@
 LED 1 - add code to initialize LED device
 =========================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 3,7-19

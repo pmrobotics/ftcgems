@@ -1,7 +1,7 @@
 IMU 10 - remember heading across opmode runs
 ============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 9

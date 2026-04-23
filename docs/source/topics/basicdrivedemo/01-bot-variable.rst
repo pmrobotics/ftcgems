@@ -1,7 +1,7 @@
 BasicDriveDemo 1 - RobotDrive variable and initialization
 ==============================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 3,7-8

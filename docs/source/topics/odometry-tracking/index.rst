@@ -1,7 +1,7 @@
 Odometry Tracking
 =================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Introduction to odometry using drive motors
 

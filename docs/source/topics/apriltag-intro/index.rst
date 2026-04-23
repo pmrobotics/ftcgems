@@ -1,7 +1,7 @@
 AprilTags Introduction
 ======================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Introduction to AprilTag detection using a webcam
 

@@ -1,7 +1,7 @@
 HuskyDriveDemo 8 - challenge: strafe instead of turn
 ====================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Q: How would you change this code so that the robot *strafes* to
    the target color instead of turning?

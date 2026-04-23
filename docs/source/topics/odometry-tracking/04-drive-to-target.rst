@@ -1,7 +1,7 @@
 Odometry 4 - drive to the "target" pose
 =======================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 12-17

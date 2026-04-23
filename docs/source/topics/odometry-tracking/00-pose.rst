@@ -1,7 +1,7 @@
 Odometry - concept of "pose"
 ============================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * In navigation, a "pose" specifies the orientation of an object within
      a coordinate system. 

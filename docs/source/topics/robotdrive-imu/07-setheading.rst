@@ -1,7 +1,7 @@
 IMU 7 - add setHeading() / getHeading()
 =======================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 4, 12-18 

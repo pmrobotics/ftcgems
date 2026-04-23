@@ -1,7 +1,7 @@
 LED 2 - turn on LED when tag detected
 =====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 12, 14, 21

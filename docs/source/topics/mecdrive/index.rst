@@ -1,7 +1,7 @@
 MecDrive OpMode
 ===============
 
-.. container:: pmslide
+.. container:: pmbox
 
 .. toctree::   
    :glob:

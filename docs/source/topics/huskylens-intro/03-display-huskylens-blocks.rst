@@ -1,7 +1,7 @@
 HuskyDriveDemo 3 - read HuskyLens blocks and display
 ====================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 6-11

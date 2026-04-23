@@ -1,7 +1,7 @@
 HuskyLens Introduction
 ======================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Introduction to HuskyLens
 

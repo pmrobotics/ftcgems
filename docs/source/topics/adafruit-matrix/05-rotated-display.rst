@@ -1,7 +1,7 @@
 LED 5 - rotated marquee text, different font
 ============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 12-21

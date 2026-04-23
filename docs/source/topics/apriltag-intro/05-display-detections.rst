@@ -1,7 +1,7 @@
 April Tag 5 - display AprilTag detections from minibot
 ======================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 1, 15-19

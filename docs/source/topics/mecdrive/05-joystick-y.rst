@@ -1,7 +1,7 @@
 MecDrive 5 - Joystick strafe (y)
 ================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 9-12

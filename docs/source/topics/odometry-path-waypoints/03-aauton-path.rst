@@ -1,7 +1,7 @@
 Odometry paths 3 - create a path for the robot to follow
 ========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 5-15

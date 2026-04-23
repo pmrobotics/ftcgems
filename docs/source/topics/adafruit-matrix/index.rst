@@ -1,7 +1,7 @@
 Using the Adafruit LED Matrix Backpack
 ======================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Use the Adafruit LED Matrix Backpack to display innformation
 

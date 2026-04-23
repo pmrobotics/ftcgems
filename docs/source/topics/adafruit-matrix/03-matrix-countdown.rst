@@ -1,7 +1,7 @@
 LED 3 - make a countdown
 ========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 13-20

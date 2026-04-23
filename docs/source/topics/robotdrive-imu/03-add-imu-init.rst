@@ -1,7 +1,7 @@
 IMU 3 - add initIMU() function
 ==============================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :name: RobotDrive.java

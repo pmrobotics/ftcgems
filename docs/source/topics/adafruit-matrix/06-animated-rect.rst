@@ -1,7 +1,7 @@
 LED 6 - animated rectangle
 ==========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 12-24

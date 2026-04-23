@@ -1,7 +1,7 @@
 BasicDriveDemo 2 - Joystick forward/reverse (x)
 ===============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 10-12

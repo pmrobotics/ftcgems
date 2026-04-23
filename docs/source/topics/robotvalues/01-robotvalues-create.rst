@@ -1,7 +1,7 @@
 RobotValues 1 - RobotValues class and robot constants
 =====================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    | Add a "New File" to OnBotJava:
    |   - name it "RobotValues" (.java)

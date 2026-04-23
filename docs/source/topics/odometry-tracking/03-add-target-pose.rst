@@ -1,7 +1,7 @@
 Odometry 3 - add a "target" pose variable
 =============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 4,10

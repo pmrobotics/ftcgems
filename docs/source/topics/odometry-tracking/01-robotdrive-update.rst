@@ -1,7 +1,7 @@
 Load the RobotDrivePm code
 ==========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Upload "RobotDrivePm.java" from src/ subdirectory
    #. Change Minibot class to extend RobotDrivePm

@@ -1,7 +1,7 @@
 MecDrive 2 - init method
 ========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 8-13

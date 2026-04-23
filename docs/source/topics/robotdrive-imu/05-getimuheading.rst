@@ -1,7 +1,7 @@
 IMU 5 - add getIMUHeading() function
 ====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 8-10

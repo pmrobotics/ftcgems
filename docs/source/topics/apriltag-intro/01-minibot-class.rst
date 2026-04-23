@@ -1,7 +1,7 @@
 Minibot class 1 - create a class to hold other robot parts
 ==========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    | Add a "New File" to OnBotJava:
    |   - name it "Minibot" (.java)

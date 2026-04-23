@@ -1,7 +1,7 @@
 MecDrive 3 - driveXYW() method
 ==============================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 1-

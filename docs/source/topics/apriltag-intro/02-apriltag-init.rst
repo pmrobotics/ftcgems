@@ -1,7 +1,7 @@
 Minibot class 2 - add code to initialize AprilTag processing
 ============================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 6-11

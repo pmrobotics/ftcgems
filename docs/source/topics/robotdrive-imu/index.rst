@@ -1,7 +1,7 @@
 Adding an IMU to RobotDrive
 ===========================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Adding an IMU to RobotDrive
 

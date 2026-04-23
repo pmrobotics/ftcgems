@@ -1,7 +1,7 @@
 RobotDrive Improvements: BRAKE and scaled velocities
 ====================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * set driving motors to BRAKE mode
 

@@ -1,7 +1,7 @@
 Using a REV LED as driver feedback
 ==================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Use the REV LED to indicate when apriltag is seen.
 

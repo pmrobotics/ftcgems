@@ -1,7 +1,7 @@
 LED 2 - display a "1" on the matrix
 =========================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 12-15

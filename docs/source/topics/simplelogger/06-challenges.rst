@@ -1,7 +1,7 @@
 DriveLogging 6 - programming / robot challenges
 ===============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    Try some of the following tasks:
 

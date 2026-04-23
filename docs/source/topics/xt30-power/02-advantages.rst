@@ -1,7 +1,9 @@
+.. rst-class: pmslide
+
 Advantages of lever connector system power wiring
 =================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * Redundancy - Dual power connection maintains connectivity even if
      one port fails

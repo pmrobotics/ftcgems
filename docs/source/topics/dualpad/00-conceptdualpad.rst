@@ -1,7 +1,7 @@
 Build the ConceptDualPad example
 =====================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Upload "DualPad.java" from src/ subdirectory
    #. Upload "ConceptDualPad.java" from src/ subdirectory

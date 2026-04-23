@@ -1,7 +1,7 @@
 DriveLogging 6 - reset ticks to zero on apress
 ==============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 2,3,16-19,23

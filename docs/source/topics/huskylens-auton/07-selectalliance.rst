@@ -1,7 +1,7 @@
 HuskyAutonDemo 7 - let gamepad select alliance
 =================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 5, 8-9, 17

@@ -1,7 +1,7 @@
 IMU 9 - display IMU Heading in ATeleop
 ======================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 13-15, 20

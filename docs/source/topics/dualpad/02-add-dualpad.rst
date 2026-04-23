@@ -1,7 +1,7 @@
 DriveLogging 2 - add DualPad initialization
 =========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 5,13

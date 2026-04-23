@@ -1,7 +1,7 @@
 IMU 4 - define IMU orientation
 ==============================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 4,5,10,11

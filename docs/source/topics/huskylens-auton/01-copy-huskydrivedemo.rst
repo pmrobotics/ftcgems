@@ -1,7 +1,7 @@
 HuskyAutonDemo 1 - copy HuskyDriveDemo as template
 ==================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Right-click on HuskyDriveDemo.java, select "Copy"
    #. Right-click on "org.firstinspires.ftc.teamcode", select "Paste"

@@ -1,7 +1,7 @@
 RobotDrive 2 - additional RobotValues examples
 ==============================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 2-3

@@ -1,7 +1,7 @@
 BasicDriveDemo 5 - Joystick forward/backward on right joystick
 ==============================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 10

@@ -1,7 +1,7 @@
 RobotValues 3 - using RobotValues in other files
 ================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 1, 11-14

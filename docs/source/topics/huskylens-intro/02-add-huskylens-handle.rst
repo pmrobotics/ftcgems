@@ -1,7 +1,7 @@
 HuskyDriveDemo 2 - add HuskyLens variable and initialize
 ========================================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. code-block::
       :emphasize-lines: 4,10-12

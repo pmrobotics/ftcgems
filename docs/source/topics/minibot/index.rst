@@ -1,7 +1,7 @@
 Minibot Introduction
 ====================
 
-.. container:: pmslide
+.. container:: pmbox
 
    .. image:: minibot-20240528.png
       :scale: 75 %

@@ -1,7 +1,7 @@
 Running ConceptDualPad 
 ======================
 
-.. container:: pmslide
+.. container:: pmbox
 
    * | Pressing the "b" button on a gamepad 
      | 1. switches the bToggle variable between "off" and "on"

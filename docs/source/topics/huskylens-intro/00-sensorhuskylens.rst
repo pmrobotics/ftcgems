@@ -1,7 +1,7 @@
 Build the SensorHuskyLens example
 =================================
 
-.. container:: pmslide
+.. container:: pmbox
 
    #. Create "SensorHuskyLens.java" from SensorHuskyLens sample code
    #. Attach HuskyLens to Minibot
