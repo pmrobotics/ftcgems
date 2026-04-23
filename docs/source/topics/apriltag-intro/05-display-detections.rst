@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 April Tag 5 - display AprilTag detections from minibot
 ======================================================
 

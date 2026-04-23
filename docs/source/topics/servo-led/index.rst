@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Control a LED using a servo port
 ================================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 4 - define IMU orientation
 ==============================
 

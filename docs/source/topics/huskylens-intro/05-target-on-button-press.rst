@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 5 - turn towards object when button pressed
 ==========================================================
 

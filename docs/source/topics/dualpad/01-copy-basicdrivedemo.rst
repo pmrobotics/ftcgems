@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DualPad 1 - copy BasicDriveDemo opmode
 ======================================
 

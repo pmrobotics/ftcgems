@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 April Tag 11 - add gain/exposure control
 ========================================
 

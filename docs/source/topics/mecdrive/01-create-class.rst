@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 MecDrive 1 - MecDrive class and motor variables
 ===============================================
 

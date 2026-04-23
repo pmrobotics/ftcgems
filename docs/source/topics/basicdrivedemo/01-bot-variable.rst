@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 BasicDriveDemo 1 - RobotDrive variable and initialization
 ==============================================================
 

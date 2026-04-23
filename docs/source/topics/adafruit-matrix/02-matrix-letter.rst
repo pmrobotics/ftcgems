@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 2 - display a "1" on the matrix
 =========================================
 

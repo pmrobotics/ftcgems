@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 April Tag 7 - have robot turn toward selected tag
 =================================================
 

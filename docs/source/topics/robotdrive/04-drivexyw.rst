@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotDrive 4 - driveXYW() method
 ================================
 

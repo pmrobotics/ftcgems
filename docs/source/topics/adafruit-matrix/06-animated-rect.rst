@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 6 - animated rectangle
 ==========================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Load the RobotDrivePm code
 ==========================
 

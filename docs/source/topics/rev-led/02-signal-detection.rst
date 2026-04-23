@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 2 - turn on LED when tag detected
 =====================================
 

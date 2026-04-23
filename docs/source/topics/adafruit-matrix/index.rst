@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Using the Adafruit LED Matrix Backpack
 ======================================
 

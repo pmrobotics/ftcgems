@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotValues 1 - RobotValues class and robot constants
 =====================================================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 4 - display marquee text
 ============================
 

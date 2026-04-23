@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 6 - programming / robot challenges
 ===============================================
 

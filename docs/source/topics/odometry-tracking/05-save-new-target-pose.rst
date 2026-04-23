@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry 5 - update the target pose
 ===================================
 

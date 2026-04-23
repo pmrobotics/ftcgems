@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 BasicDriveDemo 4 - Joystick turn left/right (w)
 ===============================================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 9 - display IMU Heading in ATeleop
 ======================================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 3 - Adjust the pwm range for brighter LED
 =============================================
 

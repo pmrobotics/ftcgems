@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 3 - open log file and output headers
 =================================================
 

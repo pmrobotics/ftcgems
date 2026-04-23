@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry paths 4 - add a followPath() function to AAuton
 ========================================================
 

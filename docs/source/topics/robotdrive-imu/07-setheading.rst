@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 7 - add setHeading() / getHeading()
 =======================================
 

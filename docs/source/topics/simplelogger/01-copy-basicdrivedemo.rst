@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 1 - copy BasicDriveDemo opmode
 =============================================
 

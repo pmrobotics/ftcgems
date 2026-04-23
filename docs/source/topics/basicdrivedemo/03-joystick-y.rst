@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 BasicDriveDemo 3 - Joystick strafe left/right (y)
 =================================================
 

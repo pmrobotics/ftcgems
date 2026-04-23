@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry 2 - add tracking to ATeleop 
 ====================================
 

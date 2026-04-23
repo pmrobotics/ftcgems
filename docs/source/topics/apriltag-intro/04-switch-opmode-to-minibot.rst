@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Minibot class 4 - switch ATeleop to use Minibot
 ===============================================
 

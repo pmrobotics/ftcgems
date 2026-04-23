@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Using a REV LED as driver feedback
 ==================================
 

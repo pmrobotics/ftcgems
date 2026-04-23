@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 2 - add SimpleLogger variable and initialize
 =========================================================
 

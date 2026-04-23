@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 2 - add IMU handle to RobotDrive
 ====================================
 

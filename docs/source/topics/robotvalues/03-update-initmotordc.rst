@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotValues 3 - using RobotValues in other files
 ================================================
 

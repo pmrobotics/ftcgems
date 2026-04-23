@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 4 - drive at 50% speed when A button pressed
 =========================================================
 

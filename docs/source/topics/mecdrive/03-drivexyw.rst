@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 MecDrive 3 - driveXYW() method
 ==============================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 1 - copy BasicDriveDemo opmode
 =============================================
 

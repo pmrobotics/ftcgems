@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 5 - add getIMUHeading() function
 ====================================
 

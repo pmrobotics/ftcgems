@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 10 - remember heading across opmode runs
 ============================================
 

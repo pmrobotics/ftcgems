@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Minibot class 2 - add code to initialize AprilTag processing
 ============================================================
 

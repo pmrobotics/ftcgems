@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 April Tag 12 - better recognition set C270 exposure and gain
 ============================================================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 
 Add BRAKE mode to driving motors
 ================================

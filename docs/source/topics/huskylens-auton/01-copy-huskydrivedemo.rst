@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyAutonDemo 1 - copy HuskyDriveDemo as template
 ==================================================
 

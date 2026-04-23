@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 MecDrive 5 - Joystick strafe (y)
 ================================
 

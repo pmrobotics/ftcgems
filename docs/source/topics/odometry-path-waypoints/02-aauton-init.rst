@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry paths 2 - add Minibot initialization
 =============================================
 

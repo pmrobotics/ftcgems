@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 5 - rotated marquee text, different font
 ============================================
 

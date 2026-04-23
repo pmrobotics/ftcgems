@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 6 - drive to object when button pressed
 ======================================================
 

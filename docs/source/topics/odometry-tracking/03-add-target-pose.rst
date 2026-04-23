@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry 3 - add a "target" pose variable
 =============================================
 

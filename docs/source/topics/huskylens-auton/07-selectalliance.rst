@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyAutonDemo 7 - let gamepad select alliance
 =================================================
 

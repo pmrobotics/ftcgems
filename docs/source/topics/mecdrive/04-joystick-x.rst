@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 MecDrive 4 - Joystick forward/reverse (x)
 =========================================
 

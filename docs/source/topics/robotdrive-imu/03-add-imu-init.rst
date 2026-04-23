@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 3 - add initIMU() function
 ==============================
 

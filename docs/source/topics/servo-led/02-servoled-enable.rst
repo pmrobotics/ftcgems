@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 2 - use gamepad right trigger to control LED brightness
 ===========================================================
 

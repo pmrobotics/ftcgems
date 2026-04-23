@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Adding a field-centered drive method
 ====================================
       

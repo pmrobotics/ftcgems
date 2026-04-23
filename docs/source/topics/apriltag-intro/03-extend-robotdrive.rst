@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Minibot class 3 - inherit from RobotDrive class
 ===============================================
 

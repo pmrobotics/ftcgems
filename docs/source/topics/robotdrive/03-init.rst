@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotDrive 3 - init method
 ==========================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry 4 - drive to the "target" pose
 =======================================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 3 - switch to using DualPad (gpad)
 ===============================================
 

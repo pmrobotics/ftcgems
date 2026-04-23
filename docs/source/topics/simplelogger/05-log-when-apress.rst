@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 DriveLogging 5 - log data for 100 loops after apress
 ====================================================
 

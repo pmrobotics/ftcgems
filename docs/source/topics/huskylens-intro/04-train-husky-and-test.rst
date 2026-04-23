@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 4 - train HuskyLens and test
 ===========================================
 

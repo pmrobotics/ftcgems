@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 April Tag 6 - helper function to telemetry AprilTagDetections
 =============================================================
 

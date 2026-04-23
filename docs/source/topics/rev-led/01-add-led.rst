@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 LED 1 - add code to initialize LED device
 =========================================
 

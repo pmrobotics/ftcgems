@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotDrive 1 - RobotDrive class and motor variables
 ==============================================================
 

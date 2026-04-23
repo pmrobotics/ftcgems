@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 IMU 6 - Create ATeleop, display IMU heading
 ===========================================
 

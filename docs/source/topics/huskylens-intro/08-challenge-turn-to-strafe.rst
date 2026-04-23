@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 8 - challenge: strafe instead of turn
 ====================================================
 

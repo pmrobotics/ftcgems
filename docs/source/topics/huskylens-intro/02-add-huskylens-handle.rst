@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 2 - add HuskyLens variable and initialize
 ========================================================
 

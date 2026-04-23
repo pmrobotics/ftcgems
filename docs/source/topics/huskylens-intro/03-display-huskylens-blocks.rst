@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyDriveDemo 3 - read HuskyLens blocks and display
 ====================================================
 

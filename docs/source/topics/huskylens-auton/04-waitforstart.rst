@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyAutonDemo 4 - replace waitForStart() with loop
 ===================================================
 

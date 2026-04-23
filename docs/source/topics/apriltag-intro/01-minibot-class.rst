@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Minibot class 1 - create a class to hold other robot parts
 ==========================================================
 

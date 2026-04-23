@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyAutonDemo 2 - remove teleop code
 =====================================
 

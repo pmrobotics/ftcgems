@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 BasicDriveDemo 2 - Joystick forward/reverse (x)
 ===============================================
 

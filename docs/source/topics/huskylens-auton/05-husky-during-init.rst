@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyAutonDemo 5 - display husky blocks during init()
 =====================================================
 

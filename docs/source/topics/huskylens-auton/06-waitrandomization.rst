@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 HuskyAutonDemo 6 - wait for object to be detected
 =================================================
 

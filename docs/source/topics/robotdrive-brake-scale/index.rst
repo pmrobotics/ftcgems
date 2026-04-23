@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotDrive Improvements: BRAKE and scaled velocities
 ====================================================
 

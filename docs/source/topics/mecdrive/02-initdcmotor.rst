@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 MecDrive 2 - init method
 ========================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry Tracking
 =================
 

@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 April Tag 8 - have robot drive to target 
 ========================================
 

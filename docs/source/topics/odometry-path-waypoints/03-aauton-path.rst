@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry paths 3 - create a path for the robot to follow
 ========================================================
 

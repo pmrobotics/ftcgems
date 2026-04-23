@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 RobotDrive 2 - initDcMotor method
 =================================
 

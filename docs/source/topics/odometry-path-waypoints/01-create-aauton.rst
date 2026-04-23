@@ -1,3 +1,5 @@
+.. rst-class:: pmslide
+
 Odometry Path 1 - create AAuton opmode
 ======================================
 
