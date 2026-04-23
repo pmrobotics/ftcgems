@@ -6,7 +6,6 @@ Minibot Introduction
 .. container:: pmbox
 
    .. image:: minibot-20240528.png
-      :scale: 75 %
       :align: center
 
    * mecanum drive robot based on goBILDA Strafer Chassis Kit

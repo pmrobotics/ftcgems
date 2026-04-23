@@ -1,4 +1,8 @@
-div.pmslide { 
+section.pmslide {
+   page-break-before: always;
+}
+
+div.pmbox { 
    font-size:180%; 
    border-radius: 25px;
    border: 3px solid #e7dec7;
@@ -6,6 +10,14 @@ div.pmslide {
    background-color: #f4efe3;
 }
 
+.document div.pmbox {
+   font-size:140%;
+}
+
 div.content {
    width: 70em;
+}
+
+@page {
+  size: landscape;
 }

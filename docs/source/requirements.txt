@@ -2,4 +2,6 @@ sphinx ;
 sphinx-autobuild ;
 sphinx-design ;
 furo ;
+sphinx-simplepdf ;
+sphinx-pdf-generate ;
 # sphinxawesome-theme ;

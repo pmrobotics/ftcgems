@@ -29,6 +29,8 @@ author = 'Patrick R. Michaud'
 # ones.
 extensions = [
    "sphinx_design",
+   "sphinx_simplepdf",
+   "sphinx_pdf_generate",
    # "sphinx.ext.githubpages",
 ]
 
@@ -57,3 +59,7 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = [ 'css/pmslide.css' ]
+
+simplepdf_vars = {
+  'cover-bg': '#5555ff',
+}
