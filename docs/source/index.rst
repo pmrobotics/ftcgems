@@ -9,7 +9,7 @@ Welcome to ftcgems's documentation!
 .. toctree::
    :caption: Contents:
 
-   courses/202-intermediate/index
+   courses/203-intermediate/index
 
 
 

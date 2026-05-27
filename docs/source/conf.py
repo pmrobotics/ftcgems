@@ -63,3 +63,5 @@ html_css_files = [ 'css/pmslide.css' ]
 simplepdf_vars = {
   'cover-bg': '#5555ff',
 }
+
+highlight_language = 'none';
