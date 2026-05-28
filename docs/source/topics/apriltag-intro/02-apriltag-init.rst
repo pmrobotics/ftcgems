@@ -6,7 +6,7 @@ Minibot class 2 - add code to initialize AprilTag processing
 .. container:: pmbox
 
    .. code-block::
-      :emphasize-lines: 6-11
+      :emphasize-lines: 6-12
 
       public class Minibot {
           
@@ -14,8 +14,9 @@ Minibot class 2 - add code to initialize AprilTag processing
           private VisionPortal visionPortal;
 
           public void initAprilTag(HardwareMap hardwareMap) {
-              // Create the AprilTag processor the easy way.
-              aprilTag = AprilTagProcessor.easyCreateWithDefaults();
+              aprilTag = new AprilTagProcessor.Builder()
+                  .setTagLibrary(AprilTagGameDatabase.getIntoTheDeepTagLibrary())
+                  .build();        
               visionPortal = VisionPortal.easyCreateWithDefaults(
                       hardwareMap.get(WebcamName.class, "Webcam 1"), aprilTag);
           }

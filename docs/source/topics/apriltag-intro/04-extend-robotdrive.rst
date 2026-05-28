@@ -19,8 +19,9 @@ April Tag 4 - inherit from RobotDrive class
           }
 
           public void initAprilTag(HardwareMap hardwareMap) {
-              // Create the AprilTag processor the easy way.
-              aprilTag = AprilTagProcessor.easyCreateWithDefaults();
+              aprilTag = new AprilTagProcessor.Builder()
+                  .setTagLibrary(AprilTagGameDatabase.getIntoTheDeepTagLibrary())
+                  .build();
               visionPortal = VisionPortal.easyCreateWithDefaults(
                       hardwareMap.get(WebcamName.class, "Webcam 1"), aprilTag);
           }

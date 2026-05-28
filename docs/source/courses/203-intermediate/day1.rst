@@ -9,6 +9,3 @@ Course 203: Intermediate FTC - Day 1
    /topics/basicdrivedemo/index
    /topics/robotdrive-brake-scale/index
    /topics/robotdrive-imu/index
-   /topics/fielddrive/index
-   /topics/apriltag-intro/index
-   /topics/simplelogger/index

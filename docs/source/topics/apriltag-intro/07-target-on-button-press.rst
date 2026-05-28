@@ -9,12 +9,12 @@ April Tag 7 - have robot turn toward selected tag
       :emphasize-lines: 6-7, 12-14
 
                   // ...
-                  if (gamepad1.start) {
-                      if (gamepad1.dpad_up) bot.setHeading(0);
-                  }
+                  double jx = - gamepad1.left_stick_y;
+                  double jw = - gamepad1.left_stick_x;
+                  double jy = - gamepad1.right_stick_x;
                   
                   int targetId = -1;
-                  if (gamepad1.x) targetId = 20;
+                  if (gamepad1.x) targetId = 11;
                   
                   List<AprilTagDetection> currentDetections =
                           bot.aprilTag.getDetections();
