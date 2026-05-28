@@ -6,7 +6,7 @@ April Tag 5 - display AprilTag detections from minibot
 .. container:: pmbox
 
    .. code-block::
-      :emphasize-lines: 1, 15-19
+      :emphasize-lines: 1, 11-15
 
       import java.util.List;
 
@@ -18,10 +18,6 @@ April Tag 5 - display AprilTag detections from minibot
                   double jy = -gamepad1.left_stick_x;
                   double jw = -gamepad1.right_stick_x;
                   
-                  if (gamepad1.start) {
-                      if (gamepad1.dpad_up) bot.setHeading(0);
-                  }
-                  
                   List<AprilTagDetection> currentDetections = 
                           bot.aprilTag.getDetections();
                   for (AprilTagDetection detection : currentDetections) {
@@ -32,6 +28,5 @@ April Tag 5 - display AprilTag detections from minibot
                   
                   telemetry.addData("Status", "Running");
                   telemetry.addData("heading", bot.getHeading());
-                  telemetry.addData("IMU heading", bot.getIMUHeading());
                   telemetry.update();
               }
