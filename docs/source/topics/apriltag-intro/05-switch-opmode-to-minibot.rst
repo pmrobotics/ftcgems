@@ -1,6 +1,6 @@
 .. rst-class:: pmslide
 
-Minibot class 4 - switch ATeleop to use Minibot
+April Tag 5 - switch ATeleop to use Minibot
 ===============================================
 
 .. container:: pmbox

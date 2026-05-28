@@ -1,6 +1,6 @@
 .. rst-class:: pmslide
 
-April Tag 5 - display AprilTag detections from minibot
+April Tag 6 - display AprilTag detections from minibot
 ======================================================
 
 .. container:: pmbox

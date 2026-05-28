@@ -1,6 +1,6 @@
 .. rst-class:: pmslide
 
-April Tag 6 - helper function to telemetry AprilTagDetections
+April Tag 3 - helper function to telemetry AprilTagDetections
 =============================================================
 
 .. container:: pmbox

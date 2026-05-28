@@ -14,7 +14,7 @@ April Tag 7 - have robot turn toward selected tag
                   }
                   
                   int targetId = -1;
-                  if (gamepad1.x) targetId = 4;
+                  if (gamepad1.x) targetId = 20;
                   
                   List<AprilTagDetection> currentDetections =
                           bot.aprilTag.getDetections();

@@ -1,6 +1,6 @@
 .. rst-class:: pmslide
 
-Minibot class 3 - inherit from RobotDrive class
+April Tag 4 - inherit from RobotDrive class
 ===============================================
 
 .. container:: pmbox
